@@ -1,9 +1,9 @@
 # app/main.py
 
 from fastapi import FastAPI
-from app.routes import router
-from app.models import Base
-from app.database import engine
+from routes import router
+from models import Base
+from database import engine
 
 app = FastAPI()
 

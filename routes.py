@@ -2,9 +2,9 @@
 
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
-from app.database import get_db
-from app.services import identify_contact
-from app.schemas import IdentifyRequest
+from database import get_db
+from services import identify_contact
+from schemas import IdentifyRequest
 
 router = APIRouter()
 

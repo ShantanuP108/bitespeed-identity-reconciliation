@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from app.models import Contact, LinkPrecedence
+from models import Contact, LinkPrecedence
 from sqlalchemy import or_
 
 def identify_contact(db: Session, email: str = None, phoneNumber: str = None):
