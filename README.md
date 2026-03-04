@@ -1,4 +1,4 @@
-# Bitespeed Identity Reconciliation Service
+<img width="1439" height="889" alt="image" src="https://github.com/user-attachments/assets/922341eb-d725-4b88-b62a-e56e9ab2df4a" /># Bitespeed Identity Reconciliation Service
 
 This project implements a backend service that identifies and links customer contacts based on email and phone number.
 
@@ -83,4 +83,11 @@ http://localhost:8000/docs
 
 The service is deployed on Render.
 
-Live endpoint:
+# Live endpoint:
+https://bitespeed-identity-reconciliation-wk3d.onrender.com/identify
+
+# Swagger
+https://bitespeed-identity-reconciliation-wk3d.onrender.com/docs
+
+# GitHub repo
+https://github.com/ShantanuP108/bitespeed-identity-reconciliation
